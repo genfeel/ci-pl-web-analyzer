@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+*.pyc
+
+# Node
+node_modules/
+dist/
+
+# IDE
+.DS_Store
+.vscode/
+.idea/
+
+# Runtime
+shipping_web/backend/storage/uploads/
+shipping_web/backend/storage/results/
+
+# Output
+shipping_doc_automation/output/

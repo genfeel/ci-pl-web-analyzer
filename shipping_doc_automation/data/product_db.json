@@ -1,0 +1,103 @@
+{
+  "_comment": "제품별 단위중량 DB - 5개 샘플에서 역산한 데이터",
+
+  "VCB": {
+    "HGV3141": {"unit_weight_kg": 70, "frame_type": "", "case_spec": [800, 800, 900], "case_weight_kg": 25},
+    "HGV2141": {"unit_weight_kg": 160, "frame_type": "", "case_spec": [1000, 1000, 1100], "case_weight_kg": 35},
+    "HGV2142": {"unit_weight_kg": 160, "frame_type": "", "case_spec": [1000, 1000, 1100], "case_weight_kg": 35},
+    "HGV_DEFAULT": {"unit_weight_kg": 100, "frame_type": "", "case_spec": [900, 900, 1000], "case_weight_kg": 30}
+  },
+
+  "ACB_HGS": {
+    "HGS10__A": {"unit_weight_kg": 34, "frame_type": "A-FRAME", "max_per_case": 6},
+    "HGS10__B": {"unit_weight_kg": 58, "frame_type": "B-FRAME", "max_per_case": 4},
+    "HGS16__B": {"unit_weight_kg": 70, "frame_type": "B-FRAME", "max_per_case": 4},
+    "HGS_A_DEFAULT": {"unit_weight_kg": 34, "frame_type": "A-FRAME", "max_per_case": 6},
+    "HGS_B_DEFAULT": {"unit_weight_kg": 58, "frame_type": "B-FRAME", "max_per_case": 4}
+  },
+
+  "ACB_LARGE": {
+    "HGN": {"unit_weight_kg": 160, "frame_type": "LARGE", "case_spec": [1500, 1100, 1200], "case_weight_kg": 60},
+    "UAN": {"unit_weight_kg": 200, "frame_type": "LARGE", "case_spec": [1700, 1300, 1400], "case_weight_kg": 80},
+    "UCB": {"unit_weight_kg": 180, "frame_type": "LARGE", "case_spec": [1500, 1100, 1200], "case_weight_kg": 60}
+  },
+
+  "MCCB": {
+    "HGM100": {"unit_weight_kg": 1.5, "frame_size": "100AF"},
+    "HGM125": {"unit_weight_kg": 1.8, "frame_size": "100AF"},
+    "HGM160": {"unit_weight_kg": 2.0, "frame_size": "100AF"},
+    "HGM200": {"unit_weight_kg": 2.15, "frame_size": "100AF"},
+    "HGM250": {"unit_weight_kg": 3.0, "frame_size": "250AF"},
+    "HGM400": {"unit_weight_kg": 5.0, "frame_size": "400AF"},
+    "HGM600": {"unit_weight_kg": 7.5, "frame_size": "630AF"},
+    "HGM630": {"unit_weight_kg": 7.5, "frame_size": "630AF"},
+    "HGM800": {"unit_weight_kg": 8.8, "frame_size": "800AF"},
+    "HGP100": {"unit_weight_kg": 1.5, "frame_size": "100AF"},
+    "HGP125": {"unit_weight_kg": 1.8, "frame_size": "100AF"},
+    "HGP160": {"unit_weight_kg": 2.0, "frame_size": "100AF"},
+    "HGP200": {"unit_weight_kg": 2.15, "frame_size": "100AF"},
+    "HGP250": {"unit_weight_kg": 3.0, "frame_size": "250AF"},
+    "HGP400": {"unit_weight_kg": 5.0, "frame_size": "400AF"},
+    "HGP630": {"unit_weight_kg": 7.5, "frame_size": "630AF"},
+    "HGP800": {"unit_weight_kg": 8.8, "frame_size": "800AF"},
+    "HGM_DEFAULT_100AF": {"unit_weight_kg": 1.8, "frame_size": "100AF"},
+    "HGM_DEFAULT_250AF": {"unit_weight_kg": 3.0, "frame_size": "250AF"},
+    "HGM_DEFAULT_400AF": {"unit_weight_kg": 5.0, "frame_size": "400AF"},
+    "HGM_DEFAULT_630AF": {"unit_weight_kg": 7.5, "frame_size": "630AF"},
+    "HGM_DEFAULT_800AF": {"unit_weight_kg": 8.8, "frame_size": "800AF"}
+  },
+
+  "MC": {
+    "HGC9": {"unit_weight_kg": 0.33, "current_a": 9},
+    "HGC12": {"unit_weight_kg": 0.33, "current_a": 12},
+    "HGC18": {"unit_weight_kg": 0.33, "current_a": 18},
+    "HGC22": {"unit_weight_kg": 0.38, "current_a": 22},
+    "HGC25": {"unit_weight_kg": 0.38, "current_a": 25},
+    "HGC32": {"unit_weight_kg": 0.43, "current_a": 32},
+    "HGC40": {"unit_weight_kg": 0.5, "current_a": 40},
+    "HGC50": {"unit_weight_kg": 0.55, "current_a": 50},
+    "HGC65": {"unit_weight_kg": 0.7, "current_a": 65},
+    "HGC75": {"unit_weight_kg": 0.85, "current_a": 75},
+    "HGC85": {"unit_weight_kg": 0.85, "current_a": 85},
+    "HGC100": {"unit_weight_kg": 1.8, "current_a": 100},
+    "HGC130": {"unit_weight_kg": 2.0, "current_a": 130},
+    "HGC150": {"unit_weight_kg": 2.0, "current_a": 150},
+    "HGC185": {"unit_weight_kg": 5.5, "current_a": 185},
+    "HGC225": {"unit_weight_kg": 5.5, "current_a": 225},
+    "HGC265": {"unit_weight_kg": 8.0, "current_a": 265},
+    "HGC300": {"unit_weight_kg": 12.0, "current_a": 300},
+    "HGC400": {"unit_weight_kg": 18.0, "current_a": 400},
+    "HGC500": {"unit_weight_kg": 28.0, "current_a": 500},
+    "HGC600": {"unit_weight_kg": 35.0, "current_a": 600},
+    "HGC_DEFAULT": {"unit_weight_kg": 1.0, "current_a": 0}
+  },
+
+  "RELAY": {
+    "HGT18": {"unit_weight_kg": 0.14, "current_a": 18},
+    "HGT22": {"unit_weight_kg": 0.14, "current_a": 22},
+    "HGT25": {"unit_weight_kg": 0.14, "current_a": 25},
+    "HGT32": {"unit_weight_kg": 0.15, "current_a": 32},
+    "HGT40": {"unit_weight_kg": 0.2, "current_a": 40},
+    "HGT50": {"unit_weight_kg": 0.2, "current_a": 50},
+    "HGT65": {"unit_weight_kg": 0.25, "current_a": 65},
+    "HGT75": {"unit_weight_kg": 0.3, "current_a": 75},
+    "HGT85": {"unit_weight_kg": 0.3, "current_a": 85},
+    "HGT100": {"unit_weight_kg": 0.6, "current_a": 100},
+    "HGT130": {"unit_weight_kg": 0.6, "current_a": 130},
+    "HGT150": {"unit_weight_kg": 0.6, "current_a": 150},
+    "HGR": {"unit_weight_kg": 0.15, "current_a": 0},
+    "HGT_DEFAULT": {"unit_weight_kg": 0.2, "current_a": 0}
+  },
+
+  "SPARE": {
+    "_comment": "부품류는 개별 중량이 매우 다양, 기본값 사용",
+    "SPARE_DEFAULT": {"unit_weight_kg": 0.5}
+  },
+
+  "case_specs": {
+    "_comment": "케이스 타입별 기본 규격",
+    "ACB_STANDARD": {"dimensions": [1760, 1200, 840], "case_weight_kg": 55},
+    "PALLET_STANDARD": {"dimensions": [1100, 1100, 1120], "pallet_weight_kg": 25, "wrapping_weight_kg": 5},
+    "PALLET_LARGE": {"dimensions": [1400, 1100, 1120], "pallet_weight_kg": 30, "wrapping_weight_kg": 5}
+  }
+}
